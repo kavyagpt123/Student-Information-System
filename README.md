@@ -1,0 +1,31 @@
+
+			======================================================
+					Student Information System
+			======================================================
+					1. Create Student Table
+					2. Add New Student
+					3. Delete Student
+					4. Update Student Details
+					5. Search Single Student Details
+					6. View All Student Details
+					7. Exit
+			======================================================
+				Enter UR Choice:
+			======================================================
+File System
+-----------------------
+1. StudentMenu.py<--File Name and Module Name
+	    menu()
+2. CreateStudentTable.py<----File Name and Module name
+       createstudtable()
+3. StudentAdd.py<--File Name and Module Name
+		recordadd()
+4. StudDataDelete.py<--File Name and Module Name
+		recorddelete()
+5. StudDataUpdate.py<-----File Name and Module Name
+        updatedata()
+6. StudDataSearch.py<-----File Name and Module Name
+        detailsearch()
+7. StudentDetailsView.py<--File Name and Module Name
+		viewstudentdata()
+8. StudentInformationSystem.py (Main program)
