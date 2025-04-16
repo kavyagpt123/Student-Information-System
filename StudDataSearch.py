@@ -4,7 +4,7 @@ class Search:
     def detailsearch(self):
         while (True):
             try:
-                connection = orc.connect("system/kajal@localhost/orcl")
+                connection = orc.connect("system/*****@localhost/orcl")
                 cursor = connection.cursor()
                 # Search Student Details based on Student Number
                 self.sno = int(input("Enter Student Number for Searching Student Details:"))
