@@ -8,7 +8,7 @@ class Update:
     def updatedata(self):
         while (True):
             try:
-                con = orc.connect("system/kajal@localhost/orcl")
+                con = orc.connect("system/*****@localhost/orcl")
                 cur = con.cursor()
                 self.getdata()
                 uq = "update student set name='%s',marks=%f where sno=%d"
