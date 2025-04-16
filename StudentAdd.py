@@ -13,7 +13,7 @@ class Student():
         while(True):
             try:
                 self.getStudval()
-                con = orc.connect("system/kajal@localhost/orcl")
+                con = orc.connect("system/*****@localhost/orcl")
                 cur = con.cursor()
                 iq = "insert into student values(%d,'%s',%f)"
                 cur.execute(iq % (self.sno, self.name, self.marks))
