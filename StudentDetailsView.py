@@ -2,7 +2,7 @@ import oracledb as orc
 class View:
     def viewtudentdata(self):
         try:
-            con=orc.connect("system/kajal@localhost/orcl")
+            con=orc.connect("system/*****@localhost/orcl")
             cur=con.cursor()
             sq="select * from student"
             cur.execute(sq)
