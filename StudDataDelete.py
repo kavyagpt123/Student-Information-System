@@ -4,7 +4,7 @@ class Delete:
     def deletedata(self):
         while(True):
             try:
-                con = orc.connect("system/kajal@localhost/orcl")
+                con = orc.connect("system/*****@localhost/orcl")
                 cur = con.cursor()
                 self.sno=int(input("Enter Student Number for Deleting the Record:"))
                 dq = "delete from student where sno=%d" % self.sno
